@@ -1,0 +1,2 @@
+[17-Dec-2016 13:18:06 UTC] PHP Fatal error:  Using $this when not in object context in /home/elbachir/public_html/allquizz.com/en/application/views/test/3.php on line 180
+[17-Dec-2016 13:18:15 UTC] PHP Fatal error:  Using $this when not in object context in /home/elbachir/public_html/allquizz.com/en/application/views/test/3.php on line 180

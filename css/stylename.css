@@ -1,0 +1,340 @@
+
+body:after {
+    content: url(../images/loading.gif);
+    display: none;
+}
+.index-quizes img {
+    max-height: 189px;
+}
+.index-quizes h5 {
+    height: 30px;
+}
+.navbar {
+    margin-bottom: 10px;
+}
+.navbar-brand {
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat left center;
+    background-size: contain;
+    width: 200px;
+    height: 45px;
+    margin-top: 0;
+    margin-left: 10px;
+    text-indent: -9999px;
+}
+.navbar .fb-like {
+    float: left;
+    margin-top: 11px;
+}
+
+.navbar-nav a {
+    padding-top: 10px!important;
+}
+.jumbotron {
+    margin-bottom: 15px;
+}
+/* index page */
+.step-0 h1,
+.step-4 h1,
+.step-6 h1
+{
+    margin-top: 10px;
+    color:#222;
+    font-size: 32px;
+    line-height: 80px
+}
+.step-0 img,
+.step-4 img,
+.step-6 img
+{
+    width: 100%;
+}
+h3 {
+    margin-top: 10px;
+}
+
+/* loading */
+.step-2 h1 {
+    margin-top: 10px;
+    font-size: 34px;
+}
+.step-2 img {
+    padding: 30px 0;
+}
+.step-2 #status-text {
+    text-align: left;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* result */
+.step-5 h1 {
+    color:#222;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: left;
+    margin: 0;
+}
+.step-5 img {
+    width: 100%;
+}
+.quiz .horizontal-ad {
+    height: 90px; width: 728px; margin-left: -10px;
+}
+
+.quiz .btn-lg {
+    font-size: 23px;
+    max-width: 100%;
+    background: #1A9EF1;
+    box-shadow: 0 3px #168DD6;
+    white-space: normal;
+    padding: 10px 40px;
+}
+
+.result-image-description {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .quiz {
+        padding: 10px 20px 10px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .result-image-description {
+        font-size: 16px
+    }
+    .navbar {
+        margin-bottom: 0px;
+    }
+    .quiz {
+        padding: 10px!important;
+        margin: 0 -10px 10px!important;
+    }
+    .step-0 h1,
+    .step-4 h1,
+    .step-6 h1 {
+        margin-top: 10px;
+        color:#222;
+        font-size: 20px;
+        line-height: 30px
+    }
+    .step-5 h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .quiz .horizontal-ad {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.fb-box {
+    display: table-row;
+}
+.fb-box-left {
+    display: table-cell;
+    min-width: 264px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.fb-box-like {
+    height: 54px;
+    margin: 10px auto;
+    border: 2px solid #3c56a2;
+    padding: 0 0 0 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #fff;
+}
+.fb-box-thumb {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(../images/fb_thumb.png) no-repeat;
+    background-size: 100% auto;
+    float: left;
+    margin: 9px 5px 9px 0;
+}
+.fb-box-text {
+    font-size: 20px;
+    color: #3c56a2;
+    font-weight: bold;
+    float: left;
+    height: 32px;
+    line-height: 19px;
+    margin: 6px 0;
+    max-width: 52px;
+}
+.fb-box-arrow {
+    float: left;
+    margin: 18px 0 0 8px;
+    background: url(../images/blue_arrow.png) no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 13px;
+}
+.fb-box-like-holder {
+    margin: 15px 0 0 10px;
+    float: left;
+}
+.fb-box-right {
+    display: table-cell;
+    width: 100%;
+}
+.fb-box-share:hover {
+    background-color: #4360b5;
+    text-decoration: none;
+}
+.fb-box-share {
+    height: 54px;
+    background-color: #3c56a2;
+    margin-top: 10px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.fb-box-share.disabled {
+    background-color: #d4d4d4!important;
+}
+.fb-box-share.disabled .fb-box-share-icon {
+    display: none;
+}
+.fb-box-share-single {
+    border-radius: 6px;
+    max-width: 320px;
+    margin: 5px auto 0;
+}
+.fb-box-share-icon {
+    padding: 0 20px 0;
+    background: url(../images/fb_ico.png) no-repeat 10px;
+    height: 100%;
+    display: table-cell;
+    width: 40px;
+}
+.fb-box-share-text.fb-box-share-text-big {
+    font-size: 24px;
+}
+.fb-box-share-text {
+    display: table-cell;
+    font: 700 24px Arial,Helvetica,sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 5px;
+}
+.try-again-btn {
+    margin-top: 10px;
+    display:block;
+    border-color:#888;
+    margin-bottom:3px;
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    .try-again-btn {
+        font-size: 16px;
+    }
+    .fb-box-left {
+        min-width: 0;
+    }
+    .fb-box-thumb {
+        display: none;
+    }
+    .fb-box-text {
+        display: none;
+    }
+    .fb-box-arrow {
+        display: none;
+    }
+    .fb-box-share-text.fb-box-share-text-big {
+        font-size: 18px;
+    }
+    .fb-box-share-text span {
+        display: none;
+    }
+    .fb-box-like {
+        padding: 0 5px;
+    }
+    .fb-box-like-holder {
+        float: none;
+        margin: 15px 0 0 15px;
+    }
+}
+.quiz-block {
+    padding-top: 5px;
+}
+.quiz-block a {
+    font-size: 16px;
+    font-weight: bold;
+}
+.quiz-block a img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.quiz-block-6 a {
+    width: 33%;
+    padding: 0 0 10px 1%;
+    float: left;
+    height: 177px;
+}
+.quiz-block-6 a:nth-child(3n+3) {
+    padding-right: 0;
+}
+.quiz-block-6 a:nth-child(3n+3):after {
+    clear: both;
+}
+.quiz-block-4 a {
+    width: 50%;
+    padding: 0 0 10px 1%;
+    float: left;
+    height: 242px;
+}
+.quiz-block-4 a:nth-child(2n+2) {
+    padding-right: 0;
+}
+.quiz-block-4 a:nth-child(2n+2):after {
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    .quiz-block-4 a {
+        width: 100%;
+        padding: 0 0 10px 0;
+        height: auto;
+    }
+    .quiz-block-6 a {
+        width: 100%;
+        padding: 0 0 10px 0;
+        height: auto;
+    }
+}
+.sidebar {
+
+}
+.sidebar-quiz img {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        width: 300px;
+        padding: 0;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-top: 5px;
+    }
+}
